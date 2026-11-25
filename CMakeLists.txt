@@ -17,8 +17,6 @@ add_executable(gyroicons src/main.c)
 
 target_link_libraries(gyroicons
   SceLibKernel_stub
-  SceThreadmgr_stub
-  SceModulemgr_stub
   SceIofilemgr_stub
   SceMotion_stub
   taihen_stub
